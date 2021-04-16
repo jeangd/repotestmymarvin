@@ -9,7 +9,7 @@ all:		$(NAME)
 $(NAME):	$(OBJ)
 		ar rc $(NAME) $(OBJ)
 
-test_run: $(NAME)
+tests_run: $(NAME)
 
 clean:
 		rm -f $(OBJ)
